@@ -1,0 +1,75 @@
+.users {
+    padding: 18px 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.users:hover {
+    background-color: #EFEFF6;
+}
+
+.info {
+    display: flex;
+    gap: 11px;
+}
+
+.image {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #EBEBF0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #424F5E;
+    margin-right: 11px;
+}
+
+.mail {
+    margin-right: 11px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9494A0;
+}
+
+.chip {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9494A0;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid #C1C1CB;
+}
+
+.icon {
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.detail{
+    position: relative;
+}
+
+.admin {
+    color: #5A57FF;
+    border-color: #5A57FF;
+}

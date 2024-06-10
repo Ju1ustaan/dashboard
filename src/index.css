@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url('./assets/fonts/FuturaPTCond-Book.eot');
+  src:
+      url('./assets/fonts/FuturaPTCond-Book.woff') format('woff'),
+      url('./assets/fonts/FuturaPTCond-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./assets/fonts/FuturaPT-Medium.eot');
+  src: url('./assets/fonts/FuturaPT-Medium.woff') format('woff'),
+      url('./assets/fonts/FuturaPT-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url('./assets/fonts/FuturaPT-Demi.eot');
+  src:
+      url('./assets/fonts/FuturaPT-Demi.woff') format('woff'),
+      url('./assets/fonts/FuturaPT-Demi.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./assets/fonts/FuturaPT-Light.eot');
+  src: 
+      url('./assets/fonts/FuturaPT-Light.woff') format('woff'),
+      url('./assets/fonts/FuturaPT-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url('./assets/fonts/FuturaPT-Book.eot');
+  src: 
+      url('./assets/fonts/FuturaPT-Book.woff') format('woff'),
+      url('./assets/fonts/FuturaPT-Book.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+input {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+
+}
+
+body, html {
+  font-family: 'Futura PT';
+  background-color: #EBEBF0;
+  cursor: url('./assets/icons/cursor.png'), default;
+}
+
+.container {
+  display: flex;
+}
+
+.wrapper {
+  padding: 53px 0;
+  width: 84.7%;
+  margin: 0 auto;
+}
+
+.dflex {
+  display: flex;
+  justify-content: space-between;
+}

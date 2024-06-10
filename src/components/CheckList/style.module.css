@@ -1,0 +1,24 @@
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 238px;
+    top: 0;
+    left: -200px;
+    background-color: #F9FAFB;
+    border-radius: 15px;
+    padding: 22px 20px;
+    box-shadow: -30px 30px 50px 0px #1C1C1E1A;
+
+}
+
+.wrapper label {
+    font-size: 16px;
+    color: #424F5E;
+    cursor: pointer;
+}
+
+.checkList {
+    margin-right: 5px;
+}

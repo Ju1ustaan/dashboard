@@ -1,0 +1,45 @@
+.search {
+    width: 74%;
+    position: relative;
+}
+
+.search input {
+    display: inline-block;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 8px 13px;
+}
+
+.search input::placeholder {
+    color: transparent;
+    font-size: 18px;
+}
+
+.search input:focus {
+    border: 1px solid #C1C1CB;
+}
+
+.search input:focus::placeholder {
+    color: #9494A0;
+}
+
+.search svg {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+}
+
+.btn {
+    width: 24.8%;
+    cursor: pointer;
+    min-height: 36px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F9FAFB;
+    border-radius: 10px;
+    background-color: #32C076;
+}

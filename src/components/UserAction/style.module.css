@@ -1,0 +1,31 @@
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 238px;
+    top: 0;
+    left: -200px;
+    background-color: #F9FAFB;
+    border-radius: 15px;
+    padding: 14px 0;
+    box-shadow: -30px 30px 50px 0px #1C1C1E1A;
+
+}
+
+.btn {
+    width: 100%;
+    text-align: start;
+    cursor: pointer;
+    padding: 8px 26px;
+
+    color: #424F5E;
+}
+
+.btn:last-child {
+    color: #9494A0;
+}
+
+.btn:hover {
+    background-color: #EFEFF6;
+}

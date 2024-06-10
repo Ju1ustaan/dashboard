@@ -1,0 +1,27 @@
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F9FAFB;
+    padding: 40px 61px;
+    text-align: center;
+    box-shadow: -30px 30px 50px 0px #1C1C1E1A;
+    border-radius: 25px;
+}
+
+.message {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.btn {
+    cursor: pointer;
+    width: 404px;
+    padding: 20px 0;
+    border-radius: 15px;
+    margin-top: 19px;
+    font-size: 20px;
+    color: #F9FAFB;
+    background-color: #32C076;
+}
